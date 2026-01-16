@@ -4,7 +4,7 @@ jobs:
   build:
   runs-on: ubunto-latest 
   steps: 
-    - name: build steps:
+    - name: build steps
       - run: echo "a demo build"
 
  test:
