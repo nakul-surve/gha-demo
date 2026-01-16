@@ -6,13 +6,11 @@ jobs:
     steps: 
       - name: build steps
       - run: echo "a demo build"
-
-  test:
+ test:
    runs-on: ubunto-latest
    steps: 
      - name: test phase 
        run: echo "running test cases"
-
   deploy:
    runs-on: ubuntu-latest 
    steps: 
